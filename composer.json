@@ -1,0 +1,20 @@
+{
+	"name" : "httpsmartproxy",
+	"authors" : [{
+			"name" : "Philippe Odacre",
+			"email" : "philippe.odacre@bigfoot.com",
+			"role" : "Author"
+		}
+	],
+	"keywords" : [],
+	"require" : {
+		"symfony/symfony" : "2.1.*"
+	},
+	"minimum-stability" : "dev",
+	"repositories" : [{
+			"name" : "httpsmartproxy",
+			"type" : "git",
+			"url" : "https://github.com/phoforjob/httpsmartproxy.git"
+		}
+	]
+}
