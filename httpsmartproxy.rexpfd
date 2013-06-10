@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rexpfd>
+    <destination path="PHO-TESTS.symfony2test.pho-1-lin.local:/home/symfony2test/workspaces-for-rse"/>
+    <options createDirectoryStructure="false" createSelectedOnly="true" descriptionFilePath="/httpsmartproxy/httpsmartproxy.rexpfd" overWriteExistingFiles="false" reviewSynchronize="true" saveSettings="false"/>
+    <selectedElements>
+        <file path="/symfony2test.pho-1-lin.local/public_html/app/SmartProxyKernel.php"/>
+        <file path="/symfony2test.pho-1-lin.local/public_html/web/config.php"/>
+        <folder path="/symfony2test.pho-1-lin.local/public_html/src/Corsair"/>
+        <folder path="/symfony2test.pho-1-lin.local/public_html/vendor/phoforjob"/>
+        <folder path="/symfony2test.pho-1-lin.local/etc"/>
+    </selectedElements>
+</rexpfd>
