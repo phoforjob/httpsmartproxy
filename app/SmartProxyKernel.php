@@ -2,8 +2,8 @@
 
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
-use PhoForJob\HttpSmartProxyBundle\PhoForJobHttpSmartProxyBundle;
 
+require_once __DIR__.'/../app/AppKernel.php';
 class SmartProxyKernel extends AppKernel
 {
     public function registerBundles()
@@ -32,7 +32,7 @@ class SmartProxyKernel extends AppKernel
         }
         */
     	$bundles=parent::registerBundles();
-    	$bundles[] = new PhoForJobHttpSmartProxyBundle();
+    	$bundles[] = new PhoForJob\Bundle\HttpSmartProxyBundle\PhoForJobHttpSmartProxyBundle();
     	
     
         return $bundles;

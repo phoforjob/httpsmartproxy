@@ -1,6 +1,6 @@
 <?php
 
-namespace PhoForJob\HttpSmartProxyBundle;
+namespace PhoForJob\Bundle\HttpSmartProxyBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

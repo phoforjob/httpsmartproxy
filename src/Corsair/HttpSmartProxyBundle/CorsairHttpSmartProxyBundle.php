@@ -4,6 +4,6 @@ namespace Corsair\HttpSmartProxyBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class CorsairHttpSmartProxyBundle extends PhoForJobHttpSmartProxyBundle
+class CorsairHttpSmartProxyBundle extends PhoForJob\Bundle\HttpSmartProxyBundle\PhoForJobHttpSmartProxyBundle
 {
 }

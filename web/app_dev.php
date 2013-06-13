@@ -13,6 +13,7 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
     || !in_array(@$_SERVER['REMOTE_ADDR'], array(
         '127.0.0.1',
         '::1',
+    	'192.168.0.18' /*PHOADD*/
     ))
 ) {
     header('HTTP/1.0 403 Forbidden');
@@ -20,10 +21,15 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
 }
 
 $loader = require_once __DIR__.'/../app/bootstrap.php.cache';
+//Debug::enable();
+
+require_once __DIR__.'/../app/AppKernel.php';
 require_once __DIR__.'/../app/SmartProxyKernel.php';
 
+//$kernel = new AppKernel('dev', true);
 $kernel = new SmartProxyKernel('dev', true);
-$kernel->loadClassCache();
+//$kernel->loadClassCache();
+Request::enableHttpMethodParameterOverride();
 $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();
