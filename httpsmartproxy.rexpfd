@@ -17,6 +17,7 @@
         <file path="/symfony2test.pho-1-lin.local/public_html/symfony2/vendor/composer/autoload_namespaces.php"/>
         
         <file path="/symfony2test.pho-1-lin.local/public_html/symfony2/vendor/composer/ClassLoader.php"/>
+        <folder path="/symfony2test.pho-1-lin.local/public_html/symfony2/src/Acme/DemoBundle/Controller"/>
         
     </selectedElements>
 </rexpfd>
