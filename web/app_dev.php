@@ -28,7 +28,7 @@ require_once __DIR__.'/../app/SmartProxyKernel.php';
 
 //$kernel = new AppKernel('dev', true);
 $kernel = new SmartProxyKernel('dev', true);
-//$kernel->loadClassCache();
+//PHOADD pour xdebug $kernel->loadClassCache();
 Request::enableHttpMethodParameterOverride();
 $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
